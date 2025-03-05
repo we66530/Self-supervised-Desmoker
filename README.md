@@ -1,5 +1,6 @@
 # Self-supervised-Desmoker
 # 🚀 Update
+03/05: ```train_v2.py``` utilizes a synthetic smoking dataset to train the model, using the original clear images as the gold standard.
 02/26: ```infer_v2.py``` now includes a feature that allows users to directly select images for import and specify the save location for masks with just a few simple clicks.
 # Desmoking for laparoscopic images
 This project builds on [SelfSVD](https://github.com/ZcsrenlongZ/SelfSVD) by ZcsrenlongZ, but not using mmcv and related library
